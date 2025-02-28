@@ -23,11 +23,10 @@ dependencies:
 ```
 
 ## Usage
+[https://fontawesome.com/search?q=setting&o=settings]
 
 ```dart
-https://fontawesome.com/search?q=setting&o=settings
 
-```dart
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class MyWidget extends StatelessWidget {
