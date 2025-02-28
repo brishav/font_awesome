@@ -16,7 +16,10 @@ In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 
 ```yaml
 dependencies:
-  font_awesome_flutter: <latest_version>
+  font_awesome_flutter:
+    git:
+      url: https://github.com/brishav/font_awesome.git
+      ref: main
 ```
 
 ## Usage
@@ -28,7 +31,10 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return IconButton(
       // Use the FaIcon Widget + FontAwesomeIcons class for the IconData
-      icon: FaIcon(FontAwesomeIcons.gamepad), 
+      icon: Icon(
+              FontAwesomeIcons.gear,
+              color: Colors.white,
+            ), 
       onPressed: () { print("Pressed"); }
      );
   }
