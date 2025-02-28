@@ -74,19 +74,6 @@ The configurator is located in the `util` folder and can be started by running `
 (If on windows, omit the `./` or replace it with `.\`.)
 An overview of available options can be viewed with `./configurator.sh --help`.
 
-To use your customized version in an app, go to the app's `pubspec.yaml` and add a dependency for
-`font_awesome_flutter: '>= 4.7.0'`. Then override the dependency's location:
-```yaml
-dependencies:
-  font_awesome_flutter: '>= 4.7.0'
-  ...
-  
-dependency_overrides:
-  font_awesome_flutter:
-    path: path/to/your/font_awesome_flutter
-  ...
-```
-
 ### Enable pro icons
 :exclamation: By importing pro icons you acknowledge that it is your obligation
 to keep these files private. This includes **not** uploading your package to
